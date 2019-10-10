@@ -27,25 +27,25 @@ class SECA(object):
     	self.__ID = agentID
     	
     	#Conversational Module initialization
-        self.__conversationalMod = ConversationalModule()
-        
+    	self.__conversationalMod = ConversationalModule()
+    	
         #Knowledge Module initialization
-        self.__knowledgeMod = KnowledgeModule()
-        
+    	self.__knowledgeMod = KnowledgeModule()
+    	
         #Memory Module initialization
-        self.__memoryMod = MemoryModule()
-        
+    	self.__memoryMod = MemoryModule()
+    	
         #Personality Module initialization
-        self.__personalityMod = PersonalityModule(initialMood, initialEmotion, moodMatrix, emotionMatrix, meprobMatrix)
-        
+    	self.__personalityMod = PersonalityModule(initialMood, initialEmotion, moodMatrix, emotionMatrix, meprobMatrix)
+    	
         #Needs Module initialization
-        self.__needsMod = NeedsModule()
-        
+    	self.__needsMod = NeedsModule()
+    	
         #Empathy Module initialization
-        self.__empathyMod = EmpathyModule()
-        
+    	self.__empathyMod = EmpathyModule()
+    	
         #NLP Module initialization
-        self.__nlpMod = NLPMod
+    	self.__nlpMod = NLPMod
     
     """
     Method that returns the ID of the agent
@@ -377,7 +377,7 @@ class SECA(object):
     	key = key.upper()
     	return key
 
-        
+
     #
     # DATA STORAGE RELATED FUNCTIONS
     # MUST BE OVERWRITTEN DEPENDING ON THE SAVING PLACE AND CONDITIONS
@@ -398,16 +398,16 @@ class SECA(object):
         """
         To be overwritten
         """
-    	return None
+        return None
 
-	"""
+    """
     Saves the personality state of the agent
     """
     def saveState(self):
         """
         To be overwritten
         """
-    	return None
+        return None
     
     """
     Loads the personality state of the agent
@@ -434,4 +434,4 @@ class SECA(object):
         """
         To be overwritten
         """
-    	return None
+        return None

@@ -51,7 +51,7 @@ class KnowledgeModule(object):
 			for key in knowledge.getConcepts():
 				keys.append(key)
 		return keys
-        
+
 """
 Knowledge Class
 """          

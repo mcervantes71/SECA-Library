@@ -12,7 +12,7 @@ class NeedsModule(object):
 	Method used to initialize the Needs Module
 	"""
 	def __init__(self):
-		self.__needs = {} 
+		self.__needs = {"attention", "finish"} 
 			#Keys of the dictionary (needLabel)
 			#Content (Need object)
 			
@@ -34,7 +34,7 @@ class NeedsModule(object):
 	"""	    
 	def restartNeed(self, label):
 		self.__needs[label].restartNeed()
-        
+
 
 """
 Need Class

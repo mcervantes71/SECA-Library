@@ -81,7 +81,7 @@ class MemoryModule(object):
 	def loadMemory(self, ids, values, classes):
 		for i in range (len(ids)):
 			self.__memories[ids[i]] = Memory(ids[i],classes[i],values[i])
-    		
+
 """
 Memory Class
 """

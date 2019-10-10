@@ -160,4 +160,3 @@ class NLPModule(object):
 		nlp_data.processTime = elapsedTime
 		nlp_data.timestamp = datetime.datetime.fromtimestamp(time.time()).strftime('%d/%m/%Y %H:%M:%S')
 		nlp_data.save()
-    	
