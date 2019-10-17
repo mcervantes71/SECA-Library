@@ -1,9 +1,9 @@
 import aiml
-from SECA import *
+# from SECA import *
 
 print("everything start here :D")
 
-my_seca = SECA(1, "Happy",["happy","neutral","sad"], ["smile","neutral", "cry"])
+# my_seca = SECA(1, "Happy",["happy","neutral","sad"], ["smile","neutral", "cry"])
 
 
 
